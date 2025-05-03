@@ -7,7 +7,7 @@
 		"phone": "",
 		"url": "https://raphael.parodi.pro",
 		"summary": "Aspiring Low Level Developer with a strong foundation in low-level programming. Currently studying at 42, I’ve been passionate about electronics and computing since childhood. Eager to grow in a professional environment where I can combine my technical curiosity with real-world challenges.",
-		"theme": "default",
+		"theme": "mocha",
 		"location": {
 			"address": "",
 			"postalCode": "75000",
@@ -35,72 +35,31 @@
 	},
 	"work": [
 		{
-			"name": "Tech Startup",
-			"position": "Junior Web Developer",
+			"name": "PALM MANAGING PROJECT",
+			"position": "Trainee developper",
 			"location_type": "On site",
-			"location": "Auckland, New Zealand",
+			"location": "Paris, France",
 			"url": "https://techstartup.com",
-			"startDate": "2024-01-01",
-			"endDate": null,
-			"summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
+			"startDate": "2017-12-01",
+			"endDate": "2017-12-07",
+			"summary":				"The start of my career in the tech world, where I learned the basics of web development and gained hands-on experience in a professional environment.",
+			"responsibilities": [
+				""
+			],
 			"highlights": [
-				"Improved website performance by optimizing code"
-	  ],
-	  "responsibilities": [
-		  "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-		  "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-		  "Participated in code reviews and contributed to improving coding standards within the team."
+				"The start of my career in the tech world, where I learned the basics of web development and gained hands-on experience in a professional environment."
 	  ],
 	  "achievements": [
-		  "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
+				"Learning the basics of web development",
+				"Understanding the importance of teamwork and collaboration in a tech environment",
+				"Getting familiar with the tools and technologies used in the industry"
 	  ],
 	  "skills": [
-		  "React",
-		  "Tailwind",
-		  "GitHub"
-	  ]
-		},
-		{
-			"name": "Innovative Solutions",
-			"position": "Junior Software Developer",
-			"location_type": "Hybrid",
-			"location": "Wellington, New Zealand",
-			"url": "https://innovativesolutions.com",
-			"startDate": "2022-06-01",
-			"endDate": "2023-06-01",
-			"summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
-			"highlights": [
-				"Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
-	  ],
-	  "responsibilities": [
-		  "Developed and maintained backend services using Python and Django.",
-		  "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-		  "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-	  ],
-	  "achievements": [
-		  "Successfully implemented a feature that enhanced user authentication, improving security measures."
-	  ],
-	  "skills": [
-		  "Python",
-		  "Django",
-		  "SQL",
-		  "Git"
-	  ]
-		},
-		{
-			"name": "Web Agency",
-			"position": "Intern Web Developer",
-			"location_type": "Remote",
-			"location": "Sydney, Australia",
-			"startDate": "2022-06-01",
-			"endDate": "2022-12-01",
-			"summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-			"highlights": [
-				"Completed several client projects successfully"
-	  ],
-	  "skills": [
-		  "HTML",
-		  "CSS"
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"MySQL",
+			"GitHub"
 	  ]
 		}
 	],
@@ -119,136 +78,109 @@
 	],
 	"education": [
 		{
-			"institution": "State University",
-			"url": "https://stateuniversity.edu",
-			"area": "Computer Science",
-			"studyType": "Bachelor",
-			"startDate": "2018-09-01",
-			"endDate": "2022-05-01",
-			"score": "3.8",
+			"institution": "42 Paris",
+			"url": "https://42.fr",
+			"area": "System Programming",
+			"studyType": "Digital Technology Architect",
+			"startDate": "2023-11-06",
+			"endDate": null,
+			"score": "4.2",
 			"courses": [
-				"CS101 - Introduction to Computer Science",
-				"CS102 - Data Structures"
+				"C Programming",
+				"Cpp Programming",
+				"Linux server management"
 			]
 		},
 		{
-			"institution": "Tech Institute",
-			"url": "https://techinstitute.edu",
-			"area": "Software Engineering",
-			"studyType": "Master",
-			"startDate": "2020-09-01",
-			"endDate": "2022-12-01",
-			"score": "3.9",
+			"institution": "Lycee saint nicolas",
+			"url": "https://lyceesaintnicolas.com/",
+			"area": "Bac STI2D",
+			"studyType": "Lycee Technologique",
+			"startDate": "2021-09-01",
+			"endDate": "2023-06-01",
+			"score": "14.1",
 			"courses": [
-				"SE201 - Advanced Software Development",
-				"SE202 - Software Architecture and Design"
-			]
-		},
-		{
-			"institution": "City College",
-			"url": "https://citycollege.edu",
-			"area": "Information Technology",
-			"studyType": "Associate Degree",
-			"startDate": "2017-01-01",
-			"endDate": "2019-12-01",
-			"score": "3.7",
-			"courses": [
-				"IT101 - Networking Fundamentals",
-				"IT102 - Database Management Systems"
+				"Electronics",
+				"FabLab"
 			]
 		}
 	],
 	"certificates": [
 		{
-			"name": "Full Stack Web Development",
-			"date": "2023-05-01",
-			"issuer": "Online University",
-			"url": "https://onlineuniversity.com/certificates/fullstack"
+			"name": "Common Core Programming",
+			"date": "2025-07-01",
+			"issuer": "42 Paris",
+			"url": "https://42.fr/en/the-program/software-engineer-degree/"
 		}
 	],
 	"skills": [
 		{
-			"name": "Figma",
-			"level": "Expert",
+			"name": "Arduino",
+			"level": "Intermediate",
 			"keywords": [
-				"Design",
-				"UI"
+				"Electronics",
+				"Low-Level Programming",
+				"Prototyping"
 			]
 		},
 		{
-			"name": "Gitlab",
+			"name": "Assembly",
 			"level": "Intermediate",
 			"keywords": [
-				"Version Control",
-				"Collaboration",
-				"Source Code"
-	  ]
-		},
-		{
-			"name": "HTML",
-			"level": "Intermediate",
-			"keywords": [
-				"Web Development",
-				"Frontend"
+				"Low-Level Programming",
+				"Memory Management",
+				"System Programming",
+				"System Calls"
 			]
 		},
 		{
-			"name": "CSS",
+			"name": "Bash",
 			"level": "Intermediate",
 			"keywords": [
-				"Web Development",
-				"Frontend",
-				"Responsive Design"
-	  ]
-		},
-		{
-			"name": "JavaScript",
-			"level": "Intermediate",
-			"keywords": [
-				"Web Development",
-				"Frontend",
-				"Backend",
-				"Fullstack"
+				"Scripting",
+				"Automation",
+				"Command Line",
+				"POSIX",
+				"Unix Syscalls"
 			]
 		},
 		{
-			"name": "Tailwind",
+			"name": "C",
 			"level": "Intermediate",
 			"keywords": [
-				"Web Development",
-				"Frontend",
-				"CSS Framework",
-				"Responsive Design"
+				"Low-Level Programming",
+				"Memory Management",
+				"System Programming",
+				"POSIX",
+				"Process Handling",
+				"Signal Handling",
+				"Unix Syscalls",
+				"Debugging (gdb, valgrind)"
 			]
 		},
 		{
-			"name": "TypeScript",
+			"name": "Cpp",
 			"level": "Intermediate",
 			"keywords": [
-				"Web Development",
-				"Frontend",
-				"Backend",
-				"JavaScript Superset"
+				"Low-Level Programming",
+				"Memory Management",
+				"System Programming",
+				"POSIX",
+				"Process Handling",
+				"Signal Handling",
+				"Unix Syscalls",
+				"Debugging (gdb, valgrind)"
 			]
 		},
 		{
-			"name": "Node",
+			"name": "Docker",
 			"level": "Intermediate",
 			"keywords": [
-				"Web Development",
-				"Backend",
-				"JavaScript",
-				"Server"
-			]
-		},
-		{
-			"name": "MySQL",
-			"level": "Intermediate",
-			"keywords": [
-				"Databases",
-				"SQL",
-				"Data Storage",
-				"Backend"
+				"Containerization",
+				"Virtualization",
+				"Environment Management",
+				"Build own images",
+				"Deployment"
 			]
 		},
 		{
@@ -258,7 +190,7 @@
 				"Version Control",
 				"Collaboration",
 				"Source Code"
-	  ]
+			]
 		},
 		{
 			"name": "GitHub",
@@ -271,34 +203,48 @@
 			]
 		},
 		{
-			"name": "Next.js",
-			"level": "Beginner",
-			"keywords": [
-				"Web Development",
-				"Frontend",
-				"React Framework",
-				"SSR",
-				"Static Generation"
-	  ]
-		},
-		{
-			"name": "React",
+			"name": "Linux",
 			"level": "Intermediate",
 			"keywords": [
-				"Web Development",
-				"Frontend",
-				"JavaScript Library",
-				"UI"
+				"POSIX",
+				"System Programming",
+				"Bash Scripting",
+				"Setup Environments"
+			]
+		},
+		{
+			"name": "Neovim",
+			"level": "Avanced",
+			"keywords": [
+				"Knowledge of Vim",
+				"Homemade Configuration"
+			]
+		},
+		{
+			"name": "Nix",
+			"level": "Intermediate",
+			"keywords": [
+				"Declarative Environments",
+				"Reproducible Builds",
+				"Declarative Package Management",
+				"Overlays"
+			]
+		},
+		{
+			"name": "Tmux",
+			"level": "Intermediate",
+			"keywords": [
+				"Multiplexer on ssh"
 			]
 		}
 	],
 	"languages": [
 		{
-			"language": "English",
+			"language": "French",
 			"fluency": "Native speaker"
 		},
 		{
-			"language": "Spanish",
+			"language": "English",
 			"fluency": "Intermediate"
 		}
 	],
@@ -312,10 +258,6 @@
 		}
 	],
 	"references": [
-		{
-			"name": "Jane Smith",
-			"reference": "Reference…"
-		}
 	],
 	"projects": [
 		{
@@ -323,42 +265,11 @@
 			"isActive": false,
 			"description": "Developpement of our version of a shell (trying to be posix compilent but with the 42's norm)",
 			"highlights": [
-				"Built with React and Tailwind CSS",
-				"Includes a blog and contact form"
+				"Implementation of command reading and lexical analysis (tokenization, parsing)",
+				"Execute internal commands (builtins) and external commands with process management (fork, exec)"
 			],
-			"url": "https://johndoe.dev",
-			"github": "https://github.com"
-		},
-		{
-			"name": "Weather App",
-			"isActive": true,
-			"description": "A web application that provides weather information for any location.",
-			"highlights": [
-				"Built with JavaScript and OpenWeatherMap API",
-				"Responsive design"
-			],
-			"url": "https://weatherapp.com"
-		},
-		{
-			"name": "Task Manager",
-			"isActive": true,
-			"description": "A simple task management app to keep track of daily tasks.",
-			"highlights": [
-				"Built with Node.js and MongoDB",
-				"User authentication and CRUD operations"
-			],
-			"url": "https://taskmanager.com",
-			"github": "https://github.com"
-		},
-		{
-			"name": "E-commerce Site",
-			"isActive": false,
-			"description": "An online store built with Next.js and Stripe for payment processing.",
-			"highlights": [
-				"Product management and shopping cart functionality",
-				"Secure payment integration"
-			],
-			"url": "https://ecommerce.com"
+			"url": "https://raphael.parodi.pro",
+			"github": "https://github.com/Maix0/shcat"
 		}
 	]
 }

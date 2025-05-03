@@ -10,6 +10,17 @@
     --color-button-accent: 249, 115, 22;
     --color-button-accent-hover: 55, 55, 55;
     --color-button-muted: 244, 239, 238;
+    [data-theme="latte"] {
+      --color-text-base: 76, 79, 105;              /* Text */
+      --color-text-muted: 120, 124, 157;           /* Subtext0 */
+      --color-text-inverted: 250, 244, 237;        /* Base */
+      --color-fill: 230, 233, 239;                 /* Surface0 */
+      --muted: 186, 194, 222;                      /* Overlay1 */
+      --color: 136, 57, 239;                       /* Mauve */
+      --color-button-accent: 76, 79, 105;          /* Text */
+      --color-button-accent-hover: 136, 57, 239;   /* Mauve */
+      --color-button-muted: 206, 209, 219;         /* Surface2 */
+    }
     [data-theme="blue"] {
       --color-text-base: 15, 23, 42;
       --color-text-muted: 100, 116, 139;
@@ -109,4 +120,15 @@
       --color-button-accent-hover: 0, 185, 255;
       --color-button-muted: 25, 81, 86;
     }
+	[data-theme="mocha"] {
+		--color-text-base: 205, 214, 254;             /* Lavender */
+		--color-text-muted: 166, 173, 200;            /* Overlay2 */
+		--color-text-inverted: 49, 50, 68;            /* Surface0 */
+		--color-fill: 49, 50, 68;                     /* Surface0 */
+		--muted: 54, 64, 54;                          /* Adapted muted tone */
+		--color: 203, 166, 247;                       /* Mauve */
+		--color-button-accent: 180, 190, 254;         /* Subtext0 */
+		--color-button-accent-hover: 203, 166, 247;   /* Mauve */
+		--color-button-muted: 34, 44, 34;             /* Custom dark-muted */
+	}
 }
