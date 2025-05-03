@@ -17,6 +17,8 @@
 					name = "pnpm-dev";
 					runtimeInputs = [ nodejs pnpm ];
 					text = ''
+						pnpm update
+						pnpm approve-builds
 						exec pnpm dev "$@"
 					'';
 				};
