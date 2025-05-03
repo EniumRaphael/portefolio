@@ -6,7 +6,8 @@ dist/
 
 # dependencies
 node_modules/
-*-lock*
+package-lock.json
+pnpm-lock.yaml
 
 # logs
 npm-debug.log*
