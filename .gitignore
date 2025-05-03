@@ -22,4 +22,4 @@ pnpm-debug.log*
 
 # local folders
 .history
-./.direnv
+./.direnv/
