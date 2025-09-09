@@ -1,275 +1,263 @@
 {
-	"basics": {
-		"name": "Raphael Parodi",
-		"label": "Low level developper",
-		"image": "/me_avatar.jpg",
-		"email": "rparodi@student.42.fr",
-		"phone": "",
-		"url": "https://raphael.parodi.pro",
-		"summary": "Aspiring Low Level Developer with a strong foundation in low-level programming. Currently studying at 42, I’ve been passionate about electronics and computing since childhood. Eager to grow in a professional environment where I can combine my technical curiosity with real-world challenges.",
-		"theme": "mocha",
-		"location": {
-			"address": "",
-			"postalCode": "75000",
-			"city": "Paris",
-			"countryCode": "FR",
-			"region": "Ile-de-France"
-		},
-		"profiles": [
-			{
-				"network": "LinkedIn",
-				"username": "eniumraphael",
-				"url": "https://linkedin.com/in/eniumraphael"
-			},
-			{
-				"network": "X",
-				"username": "eniumraphael",
-				"url": "https://x.com/eniumraphael"
-			},
-			{
-				"network": "GitHub",
-				"username": "eniumraphael",
-				"url": "https://github.com/eniumraphael"
-			}
-		]
-	},
-	"work": [
-		{
-			"name": "PALM MANAGING PROJECT",
-			"position": "Trainee developper",
-			"location_type": "On site",
-			"location": "Paris, France",
-			"url": "https://techstartup.com",
-			"startDate": "2017-12-01",
-			"endDate": "2017-12-07",
-			"summary":				"The start of my career in the tech world, where I learned the basics of web development and gained hands-on experience in a professional environment.",
-			"responsibilities": [
-				""
-			],
-			"highlights": [
-				"The start of my career in the tech world, where I learned the basics of web development and gained hands-on experience in a professional environment."
-	  ],
-	  "achievements": [
-				"Learning the basics of web development",
-				"Understanding the importance of teamwork and collaboration in a tech environment",
-				"Getting familiar with the tools and technologies used in the industry"
-	  ],
-	  "skills": [
-			"HTML",
-			"CSS",
-			"JavaScript",
-			"MySQL",
-			"GitHub"
-	  ]
-		}
-	],
-	"volunteer": [
-		{
-			"organization": "Local Coding Club",
-			"position": "Volunteer",
-			"url": "https://codingclub.com/",
-			"startDate": "2021-01-01",
-			"endDate": "2022-01-01",
-			"summary": "Helped organize coding workshops and mentored new members.",
-			"highlights": [
-				"Awarded 'Volunteer of the Month'"
-	  ]
-		}
-	],
-	"education": [
-		{
-			"institution": "42 Paris",
-			"url": "https://42.fr",
-			"area": "System Programming",
-			"studyType": "Digital Technology Architect",
-			"startDate": "2023-11-06",
-			"endDate": null,
-			"score": "4.2",
-			"courses": [
-				"C Programming",
-				"Cpp Programming",
-				"Linux server management"
-			]
-		},
-		{
-			"institution": "Lycee saint nicolas",
-			"url": "https://lyceesaintnicolas.com/",
-			"area": "Bac STI2D",
-			"studyType": "Lycee Technologique",
-			"startDate": "2021-09-01",
-			"endDate": "2023-06-01",
-			"score": "14.1",
-			"courses": [
-				"Electronics",
-				"FabLab"
-			]
-		}
-	],
-	"certificates": [
-		{
-			"name": "Common Core Programming",
-			"date": "2025-07-01",
-			"issuer": "42 Paris",
-			"url": "https://42.fr/en/the-program/software-engineer-degree/"
-		}
-	],
-	"skills": [
-		{
-			"name": "Arduino",
-			"level": "Intermediate",
-			"keywords": [
-				"Electronics",
-				"Low-Level Programming",
-				"Prototyping"
-			]
-		},
-		{
-			"name": "Assembly",
-			"level": "Intermediate",
-			"keywords": [
-				"Low-Level Programming",
-				"Memory Management",
-				"System Programming",
-				"System Calls"
-			]
-		},
-		{
-			"name": "Bash",
-			"level": "Intermediate",
-			"keywords": [
-				"Scripting",
-				"Automation",
-				"Command Line",
-				"POSIX",
-				"Unix Syscalls"
-			]
-		},
-		{
-			"name": "C",
-			"level": "Intermediate",
-			"keywords": [
-				"Low-Level Programming",
-				"Memory Management",
-				"System Programming",
-				"POSIX",
-				"Process Handling",
-				"Signal Handling",
-				"Unix Syscalls",
-				"Debugging (gdb, valgrind)"
-			]
-		},
-		{
-			"name": "Cpp",
-			"level": "Intermediate",
-			"keywords": [
-				"Low-Level Programming",
-				"Memory Management",
-				"System Programming",
-				"POSIX",
-				"Process Handling",
-				"Signal Handling",
-				"Unix Syscalls",
-				"Debugging (gdb, valgrind)"
-			]
-		},
-		{
-			"name": "Docker",
-			"level": "Intermediate",
-			"keywords": [
-				"Containerization",
-				"Virtualization",
-				"Environment Management",
-				"Build own images",
-				"Deployment"
-			]
-		},
-		{
-			"name": "Git",
-			"level": "Intermediate",
-			"keywords": [
-				"Version Control",
-				"Collaboration",
-				"Source Code"
-			]
-		},
-		{
-			"name": "GitHub",
-			"level": "Intermediate",
-			"keywords": [
-				"Version Control",
-				"Collaboration",
-				"Source Code",
-				"Git"
-			]
-		},
-		{
-			"name": "Linux",
-			"level": "Intermediate",
-			"keywords": [
-				"POSIX",
-				"System Programming",
-				"Bash Scripting",
-				"Setup Environments"
-			]
-		},
-		{
-			"name": "Neovim",
-			"level": "Avanced",
-			"keywords": [
-				"Knowledge of Vim",
-				"Homemade Configuration"
-			]
-		},
-		{
-			"name": "Nix",
-			"level": "Intermediate",
-			"keywords": [
-				"Declarative Environments",
-				"Reproducible Builds",
-				"Declarative Package Management",
-				"Overlays"
-			]
-		},
-		{
-			"name": "Tmux",
-			"level": "Intermediate",
-			"keywords": [
-				"Multiplexer on ssh"
-			]
-		}
-	],
-	"languages": [
-		{
-			"language": "French",
-			"fluency": "Native speaker"
-		},
-		{
-			"language": "English",
-			"fluency": "Intermediate"
-		}
-	],
-	"interests": [
-		{
-			"name": "Technology",
-			"keywords": [
-				"AI",
-				"Blockchain"
-			]
-		}
-	],
-	"references": [
-	],
-	"projects": [
-		{
-			"name": "shcat",
-			"isActive": false,
-			"description": "Developpement of our version of a shell (trying to be posix compilent but with the 42's norm)",
-			"highlights": [
-				"Implementation of command reading and lexical analysis (tokenization, parsing)",
-				"Execute internal commands (builtins) and external commands with process management (fork, exec)"
-			],
-			"url": "https://raphael.parodi.pro",
-			"github": "https://github.com/Maix0/shcat"
-		}
-	]
+  "basics": {
+    "name": "Raphael Parodi",
+    "label": "Low-Level Developper",
+    "image": "/me_avatar.jpg",
+    "email": "rparodi@student.42.fr",
+    "phone": null,
+    "url": "https://raphael.parodi.pro",
+    "summary": "Aspiring low-level developer with a strong foundation in low-level programming. Currently studying at 42, I’ve been passionate about electronics and computing since childhood. Eager to grow in a professional environment where I can combine my technical curiosity with real-world challenges.",
+    "theme": "mocha",
+    "location": {
+      "address": "",
+      "postalCode": "75008",
+      "city": "Paris",
+      "countryCode": "FR",
+      "region": "Ile-de-France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "eniumraphael",
+        "url": "https://linkedin.com/in/eniumraphael"
+      },
+      {
+        "network": "GitHub",
+        "username": "eniumraphael",
+        "url": "https://github.com/eniumraphael"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "PALM MANAGING PROJECT",
+      "position": "Trainee developper",
+      "location_type": "On site",
+      "location": "Paris, France",
+      "url": "https://pmp.fr",
+      "startDate": "2017-12-01",
+      "endDate": "2017-12-01",
+      "summary": null,
+      "responsibilities": null,
+      "achievements": [
+        "Learning the basics of web development",
+        "Understanding the importance of teamwork and collaboration in a tech environment",
+        "Getting familiar with the tools and technologies used in the industry"
+      ],
+      "skills": ["HTML", "CSS", "JavaScript", "MySQL", "Git"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "42 Paris / Marseille",
+      "position": "Tutor",
+      "url": "https://42network.org/",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "summary": null,
+      "highlights": [
+        "Developping pedago event / tools",
+        "Experience with 42Next (Beta Tester & Marseille's Campus)",
+        "Correcting and providing feedback on group projects",
+        "Supervising exams to ensure fairness and compliance"
+      ]
+    },
+    {
+      "organization": "TC13Radio",
+      "position": "Animator & IT Member",
+      "url": "https://tc13.fr/",
+      "startDate": "2021-01-01",
+      "endDate": "2023-11-04",
+      "summary": null,
+      "highlights": [
+        "Introductory radio course",
+        "Animator on a webradio",
+        "Installation of the radio studio"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "42 Paris",
+      "url": "https://42.fr",
+      "area": "System Programming",
+      "studyType": "Digital Technology Architect",
+      "startDate": "2023-11-06",
+      "endDate": null,
+      "score": "4.2",
+      "courses": ["C Programming", "C++ Programming", "Linux server management"]
+    },
+    {
+      "institution": "Lycee Saint Nicolas",
+      "url": "https://lyceesaintnicolas.com/",
+      "area": "Bac STI2D mention bien",
+      "studyType": "Lycee Technologique",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-01",
+      "score": "14.1",
+      "courses": ["Electronics", "FabLab"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Common Core Programming",
+      "date": "2025-07-01",
+      "issuer": "42 Paris",
+      "url": "https://42.fr/en/the-program/software-engineer-degree/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": ["Scripting", "Automation"]
+    },
+    {
+      "name": "Arduino",
+      "level": "Avanced",
+      "keywords": ["Electronics", "Low-Level Programming", "Prototyping"]
+    },
+    {
+      "name": "Assembly",
+      "level": "Intermediate",
+      "keywords": [
+        "Low-Level Programming",
+        "Memory Management",
+        "System Programming",
+        "System Calls"
+      ]
+    },
+    {
+      "name": "Bash",
+      "level": "Intermediate",
+      "keywords": [
+        "Scripting",
+        "Automation",
+        "Command Line",
+        "POSIX",
+        "Unix Syscalls"
+      ]
+    },
+    {
+      "name": "C",
+      "level": "Intermediate",
+      "keywords": [
+        "Low-Level Programming",
+        "Memory Management",
+        "System Programming",
+        "POSIX",
+        "Process Handling",
+        "Signal Handling",
+        "Unix Syscalls",
+        "Debugging (gdb, valgrind)"
+      ]
+    },
+    {
+      "name": "Cpp",
+      "level": "Intermediate",
+      "keywords": [
+        "Low-Level Programming",
+        "Memory Management",
+        "System Programming",
+        "POSIX",
+        "Process Handling",
+        "Signal Handling",
+        "Unix Syscalls",
+        "Debugging (gdb, valgrind)"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "Containerization",
+        "Virtualization",
+        "Environment Management",
+        "Build own images",
+        "Deployment"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": ["Version Control", "Collaboration", "Source Code"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermediate",
+      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": [
+        "POSIX",
+        "System Programming",
+        "Bash Scripting",
+        "Setup Environments"
+      ]
+    },
+    {
+      "name": "Neovim",
+      "level": "Avanced",
+      "keywords": ["Knowledge of Vim", "Homemade Configuration"]
+    },
+    {
+      "name": "Nix",
+      "level": "Intermediate",
+      "keywords": [
+        "Declarative Environments",
+        "Reproducible Builds",
+        "Declarative Package Management",
+        "Overlays"
+      ]
+    },
+    {
+      "name": "Tmux",
+      "level": "Intermediate",
+      "keywords": ["Multiplexer on ssh"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": ["AI", "Blockchain"]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "shcat",
+      "isActive": false,
+      "description": "Developpement of our version of a shell (trying to be posix compliant but with the 42's norm)",
+      "highlights": [
+        "Implementation of command reading and lexical analysis (tokenization, parsing)",
+        "Execute internal commands (builtins) and external commands with process management (fork, exec)"
+      ],
+      "url": null,
+      "github": "https://github.com/Maix0/shcat"
+    },
+    {
+      "name": "That Typing for You",
+      "isActive": false,
+      "description": "Developpement of a discord bot for moderation utilities",
+      "highlights": [
+        "Usage of a database and usage of prisma",
+        "Git management in a professional way",
+        "Usage of an web service (here the discord API)"
+      ],
+      "url": null,
+      "github": "https://github.com/EniumRaphael/TTY"
+    }
+  ]
 }
