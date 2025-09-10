@@ -8,8 +8,6 @@ import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Volunteer from "@/components/sections/Volunteer.astro";
 import Skills from "@/components/sections/Skills.astro";
-import Tail from "@/components/sections/Tail.astro";
-import KeyboardManager from "@/components/KeyboardManager.astro";
 import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
 import { basics } from "@cv";
@@ -30,10 +28,7 @@ const { name, label } = basics;
 			<Skills className="print:hidden" />
 			<Education className="order-first" />
 		</div>
-		<Tail />
 	</main>
-
-	<KeyboardManager />
 </Layout>
 
 <style>
