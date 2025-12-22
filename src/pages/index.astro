@@ -16,30 +16,76 @@ const { name, label } = basics;
 ---
 
 <Layout title={`${name} - ${label}`}>
-	<main class="relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-6 md:p-16 xl:gap-24 print:max-w-none print:grid-cols-1 print:gap-6">
-		<div class="space-y-6 md:col-span-2 print:col-span-1 print:grid print:grid-cols-2 print:gap-5 print:space-y-0">
-			<Hero />
-			<About />
-			<ThemeSwitch />
-			<Lang />
-		</div>
-		<div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
-			<Experience className="print:col-span-3" />
-			<Volunteer className="print:col-span-3" />
-			<Projects className="print:hidden" />
-			<Skills className="print:hidden" />
-			<Education className="order-first" />
-		</div>
-	</main>
+  <main
+    class="main-layout relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-6 md:p-16 xl:gap-24"
+  >
+    <div class="main-sidebar space-y-6 md:col-span-2">
+      <Hero />
+      <About />
+      <ThemeSwitch />
+      <Education className="order-first" />
+      <Lang />
+    </div>
+    <div class="main-content space-y-12 md:col-span-4">
+      <Experience />
+      <Volunteer />
+      <Projects />
+      <Skills />
+    </div>
+  </main>
 </Layout>
 
 <style>
-	@page {
-		size: auto;
-		margin: 0mm;
-	}
-	main {
-		margin: auto;
-		width: 100%;
-	}
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+  main {
+    margin: auto;
+	  width: 10;
+	  page-break-after: avoid;
+  page-break-before: avoid;
+  page-break-inside: avoid0%;
+  }
+  @media print {
+    html,
+    body {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+		  width: 210mm;
+		  height: 297mm;
+		  margin: 0;
+		  overflow: hidden;
+    }
+    html {
+      font-size: 65%;
+	  }
+	  * {
+		  break-inside: avoid;
+	  }
+    .title {
+      font-size: 60%;
+    }
+    .main-layout {
+      max-width: none;
+      width: 100%;
+      padding: 10mm;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 12mm;
+    }
+    .main-sidebar {
+      grid-column: span 2 / span 2;
+      gap: 12px;
+    }
+    .main-content {
+      grid-column: span 4 / span 4;
+      gap: 16px;
+    }
+    section {
+      gap: 8px;
+    }
+    section h3 {
+      padding-bottom: 8px;
+    }
+  }
 </style>
