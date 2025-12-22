@@ -121,14 +121,24 @@
       --color-button-muted: 25, 81, 86;
     }
 	[data-theme="mocha"] {
-		--color-text-base: 205, 214, 254;             /* Lavender */
-		--color-text-muted: 166, 173, 200;            /* Overlay2 */
-		--color-text-inverted: 49, 50, 68;            /* Surface0 */
-		--color-fill: 49, 50, 68;                     /* Surface0 */
-		--muted: 54, 64, 54;                          /* Adapted muted tone */
-		--color: 203, 166, 247;                       /* Mauve */
-		--color-button-accent: 180, 190, 254;         /* Subtext0 */
-		--color-button-accent-hover: 203, 166, 247;   /* Mauve */
-		--color-button-muted: 34, 44, 34;             /* Custom dark-muted */
+		--color-text-base: 205, 214, 254;
+		--color-text-muted: 166, 173, 200;
+		--color-text-inverted: 49, 50, 68;
+		--color-fill: 49, 50, 68;
+		--muted: 54, 64, 54;
+		--color: 203, 166, 247;
+		--color-button-accent: 105, 115, 179;
+		--color-button-accent-hover: 203, 166, 247;
+		--color-button-muted: 34, 44, 34;
 	}
-}
+	[data-theme="tokyonight"] {
+		--color-text-base: 192, 202, 245;
+		--color-text-muted: 105, 113, 150;
+		--color-text-inverted: 29, 32, 47;
+		--color-fill: 36, 40, 59;
+		--muted: 65, 72, 104;
+		--color: 122, 162, 247;
+		--color-button-accent: 52, 92, 177;
+		--color-button-accent-hover: 65, 166, 181;
+		--color-button-muted: 29, 32, 47;
+	}
