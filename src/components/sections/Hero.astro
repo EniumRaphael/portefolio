@@ -71,6 +71,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
           {
             profiles.map(({ network, url }) => {
               const Icon = SOCIAL_ICONS[network];
+			  const username = url.substring(url.lastIndexOf('/') + 1);
 
               return (
                 <a
@@ -81,7 +82,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
                   class="flex items-center gap-2 rounded-md p-2 text-skin-hue transition-all duration-500 ease-linear hover:bg-skin-button-accent hover:text-skin-inverted"
                 >
                   <Icon />
-                  <span class="text-sm">EniumRaphael</span>
+                    <span class="text-sm">{username}</span>
                 </a>
               );
             })
