@@ -1,61 +1,57 @@
-## Print-friendly portfolio CV
+# Print-friendly portfolio CV
 
-![preview](https://github.com/user-attachments/assets/44c47034-06e4-412a-b9dd-014593b32215)
+[🇫🇷 Version française ci-dessous | French version below]
 
-![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss)
-![GitHub stars](https://img.shields.io/github/stars/Smilesharks/dev-portfolio)
-![GitHub issues](https://img.shields.io/github/issues/Smilesharks/dev-portfolio)
-![GitHub forks](https://img.shields.io/github/forks/Smilesharks/dev-portfolio)
-![GitHub PRs](https://img.shields.io/github/issues-pr/Smilesharks/dev-portfolio)
+---
 
-## 🛠️ Stack
+## English
+### Main goal
+This project is an online portfolio/resume website, designed to present in a clear, elegant, and maintainable way:
+  - academic and professional background,
+  - experiences (work, volunteer work, projects),
+  - technical skills,
+  - languages,
+  - and personal projects.
 
-- [**Astro**](https://astro.build/) - The next-gen web framework.
-- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with type syntax.
-- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Dropdown menu with keyboard shortcuts made in pure JavaScript.
+The main objective of the project is twofold:
+  1.  Present a profile in a readable and professional manner, both on screen and in print.
+  2.  Build a clean, modular, and scalable technical base that is easy to maintain over time.
 
-## 🚀 Getting Started
+The site is based on a component-oriented architecture (Astro), with particular attention paid to:
+  - code readability,
+  - design consistency,
+  - simplicity of styles,
+  - and overall maintainability.
 
-### 1. Use this Repo as an Astro Project Template
+### Installation
 
-- I use [pnpm](https://pnpm.io/installation) as my package manager.
-
+1. Clone the repository and install dependencies with pnpm:
 ```bash
-# Enable pnpm on MacOS, WSL & Linux:
-corepack enable
-corepack prepare pnpm@latest --activate
+git clone https://github.com/EniumRaphael/portfolio
+cd portfolio
+pnpm install
 ```
 
-# Initialize the project
+2. To run it:
 ```bash
-pnpm create astro@latest -- --template Smilesharks/dev-portfolio
+pnpm dev    # Watch mode to see change
 ```
 
-### 2. Add Your Content:
+3. Change the content
 
-Edit the `cv.json` file to create your own printable Portfolio/CV.
+Edit the [cv.json template](https://jsonresume.org/schema/) to create your own.
+- There is many theme:
+    - default
+    - blue
+    - cyber
+    - green
+    - red
+    - Catppuccin Mocha (mocha)
+    - TokyoNight (tokyonight)
 
-### 3. Launch the Development Server:
-
+4. To deploy it:
 ```bash
-# Enjoy the results
-pnpm dev
+pnpm build  # The build will be in ./dist
 ```
-1. Open [**http://localhost:4321**](http://localhost:4321/) in your browser to view the result 🚀
 
-### 4. Customisable colours:
-Change the data-theme of `cv.json` and choose one of the colour themes defined in theme.css, red, blue, green, cyber and default, with its variants in dark mode, or create your own.
-
-## 🧞 Commands
-
-|     | Command         | Action                                                                       |
-| :-- | :-------------- | :--------------------------------------------------------------------------- |
-| ⚙️  | `dev` o `start` | Launches a local development server at `localhost:4321`.                   |
-| ⚙️  | `build`         | Checks for errors and creates a production build in `./dist/`. |
-| ⚙️  | `preview`       | Local preview at `localhost:4321`                                       |
-
-
-CV JSON schema from [**jsonresume.org**](https://jsonresume.org/schema/)
-
-Based on [**Bartosz Jarocki - Print-friendly, minimalist CV page**](https://github.com/BartoszJarocki/cv) and [**Miguel Ángel Durán - minimalist-portfolio-json**](https://github.com/midudev/minimalist-portfolio-json)
+Based on [Smilesharks/dev-portfolio](https://github.com/Smilesharks/dev-portfolio), with customizations for my own portfolio.
