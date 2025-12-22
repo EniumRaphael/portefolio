@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Raphael Parodi",
-    "label": "Low-Level Developper",
+    "label": "Low-Level Developer",
     "image": "/me_avatar.jpg",
     "email": "raphael@parodi.pro",
     "phone": null,
@@ -56,7 +56,7 @@
       "endDate": "2025-01-01",
       "summary": null,
       "highlights": [
-        "Developping pedago event / tools",
+        "Developing pedagogical event / tools",
         "Experience with 42Next (Beta Tester & Marseille's Campus)",
         "Correcting and providing feedback on group projects",
         "Supervising exams to ensure fairness and compliance"
@@ -71,7 +71,7 @@
       "summary": null,
       "highlights": [
         "Introductory radio course",
-        "Animator on a webradio",
+        "Radio host on webradio",
         "Installation of the radio studio"
       ]
     }
@@ -239,7 +239,7 @@
     {
       "name": "shcat",
       "isActive": false,
-      "description": "Developpement of our version of a shell (trying to be posix compliant but with the 42's norm)",
+      "description": "Developpement of our version of a shell (trying to be POSIX compliant but following the 42 coding standard)",
       "highlights": [
         "Implementation of command reading and lexical analysis (tokenization, parsing)",
         "Execute internal commands (builtins) and external commands with process management (fork, exec)"
@@ -250,11 +250,11 @@
     {
       "name": "That Typing for You",
       "isActive": false,
-      "description": "Developpement of a discord bot for moderation utilities",
+      "description": "Developpement of a Discord bot for moderation utilities",
       "highlights": [
-        "Usage of a database and usage of prisma",
+        "Usage of a database and usage of Prisma",
         "Git management in a professional way",
-        "Usage of an web service (here the discord API)"
+        "Usage of an web service (here the Discord API)"
       ],
       "url": null,
       "github": "https://github.com/EniumRaphael/TTY"
