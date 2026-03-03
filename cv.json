@@ -120,37 +120,6 @@
   ],
   "skills": [
     {
-      "name": "Python",
-      "level": "Intermediate",
-      "keywords": ["Scripting", "Automation"]
-    },
-    {
-      "name": "Arduino",
-      "level": "Avanced",
-      "keywords": ["Electronics", "Low-Level Programming", "Prototyping"]
-    },
-    {
-      "name": "Assembly",
-      "level": "Intermediate",
-      "keywords": [
-        "Low-Level Programming",
-        "Memory Management",
-        "System Programming",
-        "System Calls"
-      ]
-    },
-    {
-      "name": "Bash",
-      "level": "Intermediate",
-      "keywords": [
-        "Scripting",
-        "Automation",
-        "Command Line",
-        "POSIX",
-        "Unix Syscalls"
-      ]
-    },
-    {
       "name": "C",
       "level": "Intermediate",
       "keywords": [
@@ -179,6 +148,46 @@
       ]
     },
     {
+      "name": "Rust",
+      "level": "Intermediate",
+      "keywords": [
+        "Low-Level Programming",
+        "Memory Management",
+        "System Programming",
+        "POSIX",
+        "Process Handling",
+        "Signal Handling",
+        "Unix Syscalls",
+        "Debugging (gdb, valgrind)"
+      ]
+    },
+    {
+      "name": "Arduino",
+      "level": "Avanced",
+      "keywords": ["Electronics", "Low-Level Programming", "Prototyping"]
+    },
+    {
+      "name": "Assembly",
+      "level": "Intermediate",
+      "keywords": [
+        "Low-Level Programming",
+        "Memory Management",
+        "System Programming",
+        "System Calls"
+      ]
+    },
+    {
+      "name": "Bash",
+      "level": "Intermediate",
+      "keywords": [
+        "Scripting",
+        "Automation",
+        "Command Line",
+        "POSIX",
+        "Unix Syscalls"
+      ]
+    },
+    {
       "name": "Docker",
       "level": "Intermediate",
       "keywords": [
@@ -193,6 +202,11 @@
       "name": "Git",
       "level": "Intermediate",
       "keywords": ["Version Control", "Collaboration", "Source Code"]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": ["Scripting", "Automation"]
     },
     {
       "name": "GitHub",
@@ -257,7 +271,7 @@
         "Execute internal commands (builtins) and external commands with process management (fork, exec)"
       ],
       "url": null,
-      "github": "https://github.com/Maix0/shcat"
+      "github": "https://git.enium.eu/raphael/minishell"
     },
     {
       "name": "That Typing for You",
@@ -269,7 +283,7 @@
         "Usage of an web service (here the Discord API)"
       ],
       "url": null,
-      "github": "https://github.com/EniumRaphael/TTY"
+      "github": "https://git.enium.eu/raphael/tty"
     }
   ]
 }
