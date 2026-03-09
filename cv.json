@@ -103,7 +103,7 @@
       "name": "Common Core Programming",
       "date": "2026-01-17",
       "issuer": "42 Paris",
-      "url": "https://42.fr/en/the-program/software-engineer-degree/"
+      "url": "https://git.enium.eu/rparodi"
     },
     {
       "name": "Certification C",
@@ -271,7 +271,7 @@
         "Execute internal commands (builtins) and external commands with process management (fork, exec)"
       ],
       "url": null,
-      "github": "https://git.enium.eu/raphael/minishell"
+      "github": "https://git.enium.eu/rparodi/minishell"
     },
     {
       "name": "That Typing for You",
