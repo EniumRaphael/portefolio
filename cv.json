@@ -49,6 +49,19 @@
   ],
   "volunteer": [
     {
+      "organization": "BDE42",
+      "position": "IT Manager",
+      "url": "https://42.fr/",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "summary": null,
+      "highlights": [
+        "Google Workspace Administration",
+        "Technical Support & Training",
+        "Managed VPS-hosted services"
+      ]
+    },
+    {
       "organization": "42 Paris / Marseille",
       "position": "Tutor",
       "url": "https://42network.org/",
