@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Raphael Parodi",
-    "label": "Low-Level Developer",
+    "label": "Linux System Administrator",
     "image": "/me_avatar.jpg",
     "email": "raphael@parodi.pro",
     "phone": null,
     "url": "https://raphael.parodi.pro",
-    "summary": "Aspiring low-level developer with a strong foundation in low-level programming. Currently studying at 42, I’ve been passionate about electronics and computing since childhood. Eager to grow in a professional environment where I can combine my technical curiosity with real-world challenges.",
+    "summary": "Passionate about cybersecurity since 2017, I taught myself to manage servers and began self-hosting my own services in 2019. Since then, I’ve joined 42 School, where I’ve deepened my development skills and collaborated with peers to continuously improve. I’ve applied my knowledge in real-world settings through various volunteer projects",
     "theme": "mocha",
     "location": {
       "address": "",
@@ -30,6 +30,19 @@
   },
   "work": [
     {
+      "name": "Protected",
+      "position": "Linux Systems Administrator & IT Referent",
+      "location_type": "On site",
+      "location": "Paris, France",
+      "url": "https://protected.eu",
+      "startDate": "2026-05-18",
+      "endDate": null,
+      "summary": null,
+      "responsibilities": null,
+      "achievements": null,
+      "skills": ["Git"]
+    },
+    {
       "name": "PALM MANAGING PROJECT",
       "position": "Trainee developper",
       "location_type": "On site",
@@ -39,12 +52,8 @@
       "endDate": "2017-12-01",
       "summary": null,
       "responsibilities": null,
-      "achievements": [
-        "Learning the basics of web development",
-        "Understanding the importance of teamwork and collaboration in a tech environment",
-        "Getting familiar with the tools and technologies used in the industry"
-      ],
-      "skills": ["HTML", "CSS", "JavaScript", "MySQL", "Git"]
+      "achievements": null,
+      "skills": ["Git"]
     }
   ],
   "volunteer": [
@@ -70,7 +79,6 @@
       "summary": null,
       "highlights": [
         "Developing pedagogical event / tools",
-        "Experience with 42Next (Beta Tester & Marseille's Campus)",
         "Correcting and providing feedback on group projects",
         "Supervising exams to ensure fairness and compliance"
       ]
@@ -98,7 +106,11 @@
       "startDate": "2023-11-06",
       "endDate": null,
       "score": "4.2",
-      "courses": ["C Programming", "C++ Programming", "Linux server management"]
+      "courses": [
+        "C Programming",
+        "C++ Programming",
+        "Linux server management"
+      ]
     },
     {
       "institution": "Lycee Saint Nicolas",
@@ -108,7 +120,10 @@
       "startDate": "2021-09-01",
       "endDate": "2023-06-01",
       "score": "14.1",
-      "courses": ["Electronics", "FabLab"]
+      "courses": [
+        "Electronics",
+        "FabLab"
+      ]
     }
   ],
   "certificates": [
@@ -132,6 +147,47 @@
     }
   ],
   "skills": [
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": [
+        "POSIX",
+        "System Programming",
+        "Bash Scripting",
+        "Setup Environments"
+      ]
+    },
+    {
+      "name": "Bash",
+      "level": "Intermediate",
+      "keywords": [
+        "Scripting",
+        "Automation",
+        "Command Line",
+        "POSIX",
+        "Unix Syscalls"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "Containerization",
+        "Virtualization",
+        "Environment Management",
+        "Build own images",
+        "Deployment"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code"
+      ]
+    },
     {
       "name": "C",
       "level": "Intermediate",
@@ -177,7 +233,11 @@
     {
       "name": "Arduino",
       "level": "Avanced",
-      "keywords": ["Electronics", "Low-Level Programming", "Prototyping"]
+      "keywords": [
+        "Electronics",
+        "Low-Level Programming",
+        "Prototyping"
+      ]
     },
     {
       "name": "Assembly",
@@ -190,56 +250,30 @@
       ]
     },
     {
-      "name": "Bash",
+      "name": "Python",
       "level": "Intermediate",
       "keywords": [
         "Scripting",
-        "Automation",
-        "Command Line",
-        "POSIX",
-        "Unix Syscalls"
+        "Automation"
       ]
-    },
-    {
-      "name": "Docker",
-      "level": "Intermediate",
-      "keywords": [
-        "Containerization",
-        "Virtualization",
-        "Environment Management",
-        "Build own images",
-        "Deployment"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": ["Version Control", "Collaboration", "Source Code"]
-    },
-    {
-      "name": "Python",
-      "level": "Intermediate",
-      "keywords": ["Scripting", "Automation"]
     },
     {
       "name": "GitHub",
       "level": "Intermediate",
-      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
-    },
-    {
-      "name": "Linux",
-      "level": "Intermediate",
       "keywords": [
-        "POSIX",
-        "System Programming",
-        "Bash Scripting",
-        "Setup Environments"
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "Git"
       ]
     },
     {
       "name": "Neovim",
       "level": "Avanced",
-      "keywords": ["Knowledge of Vim", "Homemade Configuration"]
+      "keywords": [
+        "Knowledge of Vim",
+        "Homemade Configuration"
+      ]
     },
     {
       "name": "Nix",
@@ -254,7 +288,9 @@
     {
       "name": "Tmux",
       "level": "Intermediate",
-      "keywords": ["Multiplexer on ssh"]
+      "keywords": [
+        "Multiplexer on ssh"
+      ]
     }
   ],
   "languages": [
@@ -270,7 +306,10 @@
   "interests": [
     {
       "name": "Technology",
-      "keywords": ["AI", "Blockchain"]
+      "keywords": [
+        "AI",
+        "Blockchain"
+      ]
     }
   ],
   "references": [],
@@ -278,10 +317,11 @@
     {
       "name": "shcat",
       "isActive": false,
-      "description": "Developpement of our version of a shell (trying to be POSIX compliant but following the 42 coding standard)",
+      "description": "Developpement of our version of a shell",
       "highlights": [
-        "Implementation of command reading and lexical analysis (tokenization, parsing)",
-        "Execute internal commands (builtins) and external commands with process management (fork, exec)"
+        "Advanced process and signal management under Unix/Linux",
+        "Development of a POSIX-compliant shell interpreter",
+        "Mastery of redirections, pipes, and file descriptor management"
       ],
       "url": null,
       "github": "https://git.enium.eu/rparodi/minishell"
@@ -291,9 +331,9 @@
       "isActive": false,
       "description": "Developpement of a Discord bot for moderation utilities",
       "highlights": [
-        "Usage of a database and usage of Prisma",
-        "Git management in a professional way",
-        "Usage of an web service (here the Discord API)"
+        "Advanced PostgreSQL database management for a Discord bot",
+        "Development of a Discord bot in Rust with Serenity",
+        "Integration with Discord API and service management"
       ],
       "url": null,
       "github": "https://git.enium.eu/raphael/tty"
