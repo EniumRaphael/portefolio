@@ -6,8 +6,6 @@ dist/
 
 # dependencies
 node_modules/
-package-lock.json
-pnpm-lock.yaml
 
 # logs
 npm-debug.log*
@@ -25,7 +23,6 @@ pnpm-debug.log*
 # local folders
 .history
 .direnv/
-*.lock
 .cache/
 .local/
 .config/
