@@ -42,27 +42,26 @@ const { name, label } = basics;
   }
   main {
     margin: auto;
-	  width: 10;
-	  page-break-after: avoid;
-  page-break-before: avoid;
-  page-break-inside: avoid0%;
+    page-break-after: avoid;
+    page-break-before: avoid;
+    page-break-inside: avoid;
   }
   @media print {
     html,
     body {
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
-		  width: 210mm;
-		  height: 297mm;
-		  margin: 0;
-		  overflow: hidden;
+      width: 210mm;
+      height: 297mm;
+      margin: 0;
+      overflow: hidden;
     }
     html {
       font-size: 65%;
-	  }
-	  * {
-		  break-inside: avoid;
-	  }
+    }
+    * {
+      break-inside: avoid;
+    }
     .title {
       font-size: 60%;
     }
