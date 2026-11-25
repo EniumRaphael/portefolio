@@ -1,57 +1,77 @@
 # Print-friendly portfolio CV
 
-[🇫🇷 Version française ci-dessous | French version below]
+[🇫🇷 Version française](README.fr.md)
 
----
-
-## English
-### Main goal
-This project is an online portfolio/resume website, designed to present in a clear, elegant, and maintainable way:
+An online portfolio/resume website built with Astro, designed to present in a clear, elegant, and print-friendly way (one A4 page in PDF):
   - academic and professional background,
   - experiences (work, volunteer work, projects),
   - technical skills,
   - languages,
   - and personal projects.
 
-The main objective of the project is twofold:
-  1.  Present a profile in a readable and professional manner, both on screen and in print.
-  2.  Build a clean, modular, and scalable technical base that is easy to maintain over time.
+Everything (dev environment, content, build and deployment) goes through [Nix](https://nixos.org/) flakes.
 
-The site is based on a component-oriented architecture (Astro), with particular attention paid to:
-  - code readability,
-  - design consistency,
-  - simplicity of styles,
-  - and overall maintainability.
+### Layout
 
-### Installation
+| Path | Role |
+| --- | --- |
+| `flake.nix` | Dev shell, package and NixOS module outputs |
+| `nix/cv.nix` | The CV content, a [JSON Resume](https://jsonresume.org/schema/) attrset |
+| `nix/package.nix` | Builds the static site for a given `cv` and `siteUrl` |
+| `nix/module.nix` | NixOS module serving the site with nginx |
 
-1. Clone the repository and install dependencies with pnpm:
+`cv.json` is generated from `nix/cv.nix` (by the dev shell and by the package), it is not versioned.
+
+### Development
+
+Enter the dev shell (Node.js, pnpm, tmux, lazygit), it also generates `cv.json`:
 ```bash
-git clone https://github.com/EniumRaphael/portfolio
-cd portfolio
+git clone https://github.com/EniumRaphael/portefolio
+cd portefolio
+nix develop
 pnpm install
+pnpm dev    # Watch mode to see changes
 ```
 
-2. To run it:
+`tmux-setup` opens a ready-to-use tmux session (editor, dev server, git).
+
+### Change the content
+
+Edit `nix/cv.nix`, then re-enter `nix develop` to regenerate `cv.json`.
+
+Available themes (`basics.theme`):
+  - default
+  - blue
+  - cyber
+  - green
+  - red
+  - Catppuccin Mocha (`mocha`)
+  - TokyoNight (`tokyonight`)
+
+### Build
+
 ```bash
-pnpm dev    # Watch mode to see change
+nix build   # The site is in ./result
 ```
 
-3. Change the content
+The canonical URL (canonical, `og:url`, JSON-LD) is passed to the build as `SITE_URL`.
 
-Edit the [cv.json template](https://jsonresume.org/schema/) to create your own.
-- There is many theme:
-    - default
-    - blue
-    - cyber
-    - green
-    - red
-    - Catppuccin Mocha (mocha)
-    - TokyoNight (tokyonight)
+### Deploy with the NixOS module
 
-4. To deploy it:
-```bash
-pnpm build  # The build will be in ./dist
+One build and one canonical URL per domain:
+```nix
+{
+  inputs.portefolio.url = "github:EniumRaphael/portefolio";
+  # ...
+  imports = [ inputs.portefolio.nixosModules.default ];
+  services.portefolio = {
+    enable = true;
+    domains = [ "example.net" "example.com" ];
+    # cv = { ... };  # optional, defaults to nix/cv.nix
+  };
+}
 ```
+
+Other options: `user`, `group`, `createUser`, `forceSSL` and `enableACME` (all enabled by default except the user/group names).
 
 Based on [Smilesharks/dev-portfolio](https://github.com/Smilesharks/dev-portfolio), with customizations for my own portfolio.
