@@ -6,13 +6,15 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = {
-    self,
-    nixpkgs,
-    flake-utils,
-  }:
+  outputs =
+    {
+      self,
+      nixpkgs,
+      flake-utils,
+    }:
     flake-utils.lib.eachDefaultSystem (
-      system: let
+      system:
+      let
         pkgs = nixpkgs.legacyPackages.${system};
         tmux-setup = pkgs.writeShellScriptBin "tmux-setup" ''
           #!/usr/bin/env sh
@@ -30,12 +32,12 @@
           tmux select-pane -t $SESSION:0.0
           tmux attach -t $SESSION
         '';
-      in {
+      in
+      {
         devShell = pkgs.mkShellNoCC {
           packages = with pkgs; [
             lazygit
             nodejs_22
-            pnpm
             tmux-setup
             pnpm
           ];
