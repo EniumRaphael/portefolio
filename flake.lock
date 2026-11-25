@@ -1,5 +1,23 @@
 {
   "nodes": {
+    "claude-cage": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1793847754,
+        "narHash": "sha256-t1VbRag4iDOR0lAI6C8EiG5F/5REVg49Z59eHqlg2+U=",
+        "owner": "EniumRaphael",
+        "repo": "claude-cage",
+        "rev": "7fdcd0e0458d7d24063175b9d653898abb6c611d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "EniumRaphael",
+        "repo": "claude-cage",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -20,6 +38,22 @@
     },
     "nixpkgs": {
       "locked": {
+        "lastModified": 1793726008,
+        "narHash": "sha256-jQp1wKvbwWdLBASTXkSi/VYmDJ5AbBi1WvcMt9HWJC8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1d060086d60cb76a40cf37109f979d88a5bd6396",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
         "lastModified": 1795629701,
         "narHash": "sha256-1d+IbzMjcsGkfiyw71YrnDWYdwBoJEg/62Az6oCaG5s=",
         "owner": "nixos",
@@ -35,8 +69,9 @@
     },
     "root": {
       "inputs": {
+        "claude-cage": "claude-cage",
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs_2"
       }
     },
     "systems": {
