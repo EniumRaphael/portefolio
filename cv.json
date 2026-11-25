@@ -4,7 +4,7 @@
     "label": "Linux System Administrator",
     "image": "/me_avatar.jpg",
     "email": "raphael@parodi.pro",
-    "phone": null,
+    "phone": "",
     "url": "https://raphael.parodi.pro",
     "summary": "Passionate about cybersecurity since 2017, I taught myself to manage servers and began self-hosting my own services in 2019. Since then, I’ve joined 42 School, where I’ve deepened my development skills and collaborated with peers to continuously improve. I’ve applied my knowledge in real-world settings through various volunteer projects",
     "theme": "mocha",
@@ -44,7 +44,7 @@
     },
     {
       "name": "PALM MANAGING PROJECT",
-      "position": "Trainee developper",
+      "position": "Trainee developer",
       "location_type": "On site",
       "location": "Paris, France",
       "url": "https://pmp.fr",
