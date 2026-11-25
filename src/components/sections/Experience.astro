@@ -1,40 +1,7 @@
 ---
 import Section from "../Section.astro"
 import { work } from "@cv"
-
-import HTML from "@/icons/html.astro"
-import CSS from "@/icons/css.astro"
-import JavaScript from "@/icons/javascript.astro"
-import TypeScript from "@/icons/type.astro"
-import React from "@/icons/react.astro"
-import Node from "@/icons/node.astro"
-import MySQL from "@/icons/sql.astro"
-import Git from "@/icons/git.astro"
-import GitHub from "@/icons/GitHub.astro"
-import Tailwind from "@/icons/tailwind.astro"
-import Next from "@/icons/next.astro"
-import Swift from "@/icons/swift.astro"
-import SwiftUI from "@/icons/swiftui.astro"
-import Kotlin from "@/icons/kotlin.astro"
-import Flutter from "@/icons/flutter.astro"
-
-const SKILLS_ICONS: Record<string, any> = {
-  HTML,
-  CSS,
-  JavaScript,
-  TypeScript,
-  React,
-  Node,
-  MySQL,
-  Git,
-  GitHub,
-  Next,
-  Tailwind,
-  Swift,
-  SwiftUI,
-  Kotlin,
-  Flutter,
-}
+import { SKILLS_ICONS } from "@/icons"
 ---
 <Section className={Astro.props.className} title="Experience">
   <ul class="flex flex-col">
@@ -61,7 +28,7 @@ const SKILLS_ICONS: Record<string, any> = {
                 <div class="inline-flex items-center text-lg leading-tight group/link focus-visible:text-amber-500" aria-label="{position} - {company}">
                   <span>{position} <span>@</span>
                   {url ? (
-                    <a class="text-skin-hue" href={url} title={`Ver ${name}`} target="_blank">{name}</a>
+                    <a class="text-skin-hue" href={url} title={`Ver ${name}`} target="_blank" rel="noopener noreferrer">{name}</a>
                   ) : (
                     <span>{name}</span>
                   )}

@@ -1,0 +1,61 @@
+import Arduino from "@/icons/arduino.astro";
+import Assembly from "@/icons/assembly.astro";
+import Bash from "@/icons/bash.astro";
+import C from "@/icons/c.astro";
+import CSS from "@/icons/css.astro";
+import Cpp from "@/icons/cpp.astro";
+import Figma from "@/icons/Figma.astro";
+import Flutter from "@/icons/flutter.astro";
+import Docker from "@/icons/docker.astro";
+import Git from "@/icons/git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Gitlab from "@/icons/Gitlab.astro";
+import HTML from "@/icons/html.astro";
+import JavaScript from "@/icons/javascript.astro";
+import Kotlin from "@/icons/kotlin.astro";
+import Linux from "@/icons/tux.astro";
+import MySQL from "@/icons/sql.astro";
+import Neovim from "@/icons/nvim.astro";
+import Next from "@/icons/next.astro";
+import Python from "@/icons/python.astro";
+import Nix from "@/icons/nix.astro";
+import Node from "@/icons/node.astro";
+import React from "@/icons/react.astro";
+import Rust from "@/icons/rust.astro";
+import Swift from "@/icons/swift.astro";
+import SwiftUI from "@/icons/swiftui.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import Tmux from "@/icons/tmux.astro";
+import TypeScript from "@/icons/type.astro";
+
+export const SKILLS_ICONS: Record<string, any> = {
+  Arduino,
+  Assembly,
+  Bash,
+  C,
+  CSS,
+  Cpp,
+  Docker,
+  Figma,
+  Flutter,
+  Git,
+  GitHub,
+  Gitlab,
+  HTML,
+  JavaScript,
+  Kotlin,
+  Linux,
+  MySQL,
+  Neovim,
+  Next,
+  Nix,
+  Node,
+  Python,
+  React,
+  Rust,
+  Swift,
+  SwiftUI,
+  Tailwind,
+  Tmux,
+  TypeScript,
+};
