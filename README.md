@@ -72,6 +72,8 @@ One build and one canonical URL per domain:
 }
 ```
 
+See [nix/README.md](nix/README.md) for the full NixOS documentation.
+
 Other options: `user`, `group`, `createUser`, `forceSSL` and `enableACME` (all enabled by default except the user/group names).
 
 Based on [Smilesharks/dev-portfolio](https://github.com/Smilesharks/dev-portfolio), with customizations for my own portfolio.

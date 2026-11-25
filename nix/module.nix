@@ -1,5 +1,5 @@
-# Module NixOS : sert le portfolio sur un ou plusieurs noms de domaine.
-# `mkSite` est injecté par le flake (voir flake.nix).
+# NixOS module: serves the portfolio on one or more domain names.
+# `mkSite` is injected by the flake (see flake.nix).
 { mkSite }:
 {
   config,
@@ -12,7 +12,7 @@ let
 in
 {
   options.services.portefolio = {
-    enable = lib.mkEnableOption "le portfolio (site statique servi par nginx)";
+    enable = lib.mkEnableOption "the portfolio (static site served by nginx)";
 
     domains = lib.mkOption {
       type = lib.types.listOf lib.types.str;
@@ -21,8 +21,8 @@ in
         "example.com"
       ];
       description = ''
-        Noms de domaine servis. Chaque domaine a son propre build, avec
-        sa propre URL canonique (canonical, og:url, JSON-LD).
+        Domain names to serve. Each domain has its own build, with its
+        own canonical URL (canonical, og:url, JSON-LD).
       '';
     };
 
@@ -30,40 +30,40 @@ in
       type = lib.types.attrs;
       default = import ./cv.nix;
       defaultText = lib.literalExpression "import ./cv.nix";
-      description = "Données du CV (schéma JSON Resume), remplace cv.json.";
+      description = "CV data (JSON Resume schema), replaces cv.json.";
     };
 
     user = lib.mkOption {
       type = lib.types.str;
       default = "portefolio";
       description = ''
-        Utilisateur sous lequel nginx (workers) sert le site.
-        Attention : nginx est partagé, cela concerne aussi les autres vhosts.
+        User the nginx workers run as to serve the site.
+        Warning: nginx is shared, so this also affects the other vhosts.
       '';
     };
 
     group = lib.mkOption {
       type = lib.types.str;
       default = "portefolio";
-      description = "Groupe associé à `user`.";
+      description = "Group associated with `user`.";
     };
 
     createUser = lib.mkOption {
       type = lib.types.bool;
       default = true;
-      description = "Crée l'utilisateur et le groupe système (désactiver s'ils existent déjà).";
+      description = "Create the system user and group (disable if they already exist).";
     };
 
     forceSSL = lib.mkOption {
       type = lib.types.bool;
       default = true;
-      description = "Redirige HTTP vers HTTPS.";
+      description = "Redirect HTTP to HTTPS.";
     };
 
     enableACME = lib.mkOption {
       type = lib.types.bool;
       default = true;
-      description = "Certificats Let's Encrypt automatiques pour chaque domaine.";
+      description = "Automatic Let's Encrypt certificates for each domain.";
     };
   };
 
@@ -71,7 +71,7 @@ in
     assertions = [
       {
         assertion = cfg.domains != [ ];
-        message = "services.portefolio.domains ne doit pas être vide.";
+        message = "services.portefolio.domains must not be empty.";
       }
     ];
 

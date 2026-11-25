@@ -1,4 +1,4 @@
-# `cv` : attrset (schéma JSON Resume) ; `siteUrl` : URL publique (canonical, og:url, JSON-LD).
+# `cv`: attrset (JSON Resume schema); `siteUrl`: public URL (canonical, og:url, JSON-LD).
 {
   lib,
   stdenvNoCC,
@@ -55,7 +55,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
 
   env.SITE_URL = siteUrl;
 
-  # `@cv` (tsconfig) pointe sur ./cv.json : on le génère depuis la config Nix
+  # `@cv` (tsconfig) points to ./cv.json: generate it from the Nix config
   preBuild = ''
     cp ${cvJson} cv.json
   '';
